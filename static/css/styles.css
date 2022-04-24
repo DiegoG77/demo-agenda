@@ -1,0 +1,43 @@
+/*@font-face{ 
+    font-family: yanone;
+    src: url("./fonts/yanone.ttf");
+}*/
+
+@font-face{
+    font-family: finger;
+    src: url("./fonts/finger.ttf");
+}
+
+/*@font-face{
+    font-family: finger;
+    src: url("./fonts/titilium.ttf");
+} */
+
+.titulo{
+    text-align: center;
+    color: darkseagreen;
+    margin: auto;
+    font-family:"finger";
+    font-size: 100px;
+}
+
+#calendar, #seeker {
+    background-color: rgba(19, 224, 197, 0.7);
+    text-align: center;
+    justify-content: center;
+}
+
+.images{
+    width: 350px;
+    height: 350px;
+}
+
+.index-text {
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.text-info-responsive-d {
+    font-size: small;
+    color: #78a231;
+}

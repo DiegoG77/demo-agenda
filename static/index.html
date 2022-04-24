@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda</title>
+    <link rel="shortcut icon" type="image/x-icon" href="img/Calendar.ico">
+
+    <style>
+        body {
+            background-image: url("img/Flowers.png");
+        }
+    </style>
+
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <br>
+    <br>
+    <div class="container">
+        <h1 class="titulo"><u>Agenda</u></h1>
+        <br>
+        <div id="spinner-wrapper" class="d-none justify-content-center" style="display: none;">
+            <div class="spinner-border text-primary" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+
+        <div id="principal"></div>
+
+        <div id="listBtn"></div>
+
+        <div class="row" id="list"></div>
+
+    </div>
+
+    <br><br><br><br>
+    <footer class="text-muted">
+
+        <div class="container index-text">
+            <p class="text-info">neodev &copy</p>
+            <p class="text-info-responsive-d">Tecnologías utilizadas: nodeJS, Express, json, html5, css3, Bootstrap, JavaScript</p>
+        </div>
+
+    </footer>
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/calendar.js"></script>
+    <script src="js/init.js"></script>
+</body>
+
+</html>
